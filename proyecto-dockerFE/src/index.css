@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #3498db;  /* Color principal, puedes cambiarlo según tu preferencia */
+    --accent-color: #2ecc71;   /* Color de acento, puedes cambiarlo según tu preferencia */
+    --font-family: 'Arial', sans-serif; /* Tipo de fuente, puedes cambiarlo según tu preferencia */
+    --background-color: #ecf0f1;  /* Color de fondo, puedes cambiarlo según tu preferencia */
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    margin-bottom: 20px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--accent-color);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
